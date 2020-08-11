@@ -1,7 +1,7 @@
 import React from "react";
 import Tilt from "react-tilt";
 import "./Logo.css";
-import brain from "./brain.png";
+import smartbrain from "./smartbrain.svg";
 
 const Logo = () => {
   return (
@@ -13,7 +13,7 @@ const Logo = () => {
       >
         <div className="Tilt-inner pa3">
           {" "}
-          <img src={brain} alt="logo" style={{ paddingTop: "5px" }} />
+          <img src={smartbrain} alt="logo" style={{ paddingTop: "5px" }} />
         </div>
       </Tilt>
     </div>
